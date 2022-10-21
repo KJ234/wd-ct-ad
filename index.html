@@ -5,34 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/006a4b7848.js" crossorigin="anonymous"></script>
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Weather Dashboard</h1>
-    </header>
-    <div class="section-1">
-      <div class="title">
-        <h2 class="main-title">Search for a City</h2>
-      </div>
 
-      <form class="button">
-        <input
-          type="text"
-          id="City"
-          name="City"
-          class="input"
-          placeholder="e.g. liverpool...."
-        /><br /><br />
-        <input class="searchButton" type="submit" value="Submit" />
-      </form>
+    
+    
+    <h1>WEATHER DASHBOARD</h1>
+    <h6 id="date1"></h6>
+    
+    <div class="container">
+      
+      <div class="title">
+        <h2>Search for a city</h2>
+      </div>
+      
+   <div class="textarea">
+     <textarea name="citySearch" id="searchBtn" placeholder="e.g. Leeds"></textarea>
     </div>
+    
+  
+    
+    <div class="submit">
+    <button class="button">Search</button>
+   </div>
+  </div>
+
+  <div class="subTitle">
+    <h2>5 DAY FORECAST : </h2>
+  </div>
+  
+  <div id="cards">
+    <i class="fa-solid fa-temperature-arrow-down"></i>
+    <h6 id="name1"></h6>
+    <h6 id="temp1"></h6>
+    <h6 id="wind1"></h6>
+    <h6 id="humidity1"></h6>
+  </div>
+  
+  
+  
+  <div id="cards2">
+   <h6 id="date2"></h6>
+   <h6 id="temp2"></h6>
+   <h6 id="wind2"></h6>
+   <h6 id="humidity2"></h6>
+  </div>
+   
+
+<div class="cityName"></div>
+
+   <div id="cards3">
+     <h6 id="date3"></h6>
+     <h6 id="temp3"></h6>
+     <h6 id="humidity3"></h6>
+    </div>
+    
+    <div id="cards4">
+      <h6 id="date4"></h6>
+      <h6 id="temp4"></h6>
+      <h6 id="humidity4"></h6>
+    </div>
+    
+    <div id="cards5">
+      <h6 id="date5"></h6>
+      <h6 id="temp5"></h6>
+      <h6 id="humidity5"></h6>
+    </div>
+    
+    <div id="cards6">
+      <h6 id="date6"></h6>
+      <h6 id="temp6"></h6>
+      <h6 id="humidity6"></h6>
+    </div>
+    
+    
+    
+    
+    
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
   </body>
-  <script src="./script.js"></script>
-</html>
+  </html>

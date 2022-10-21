@@ -8,33 +8,105 @@ body {
   background-image: linear-gradient(
     to right,
     rgb(201, 145, 201),
-    rgb(70, 38, 129)
+    rgb(235, 235, 235)
   );
 }
 
-header {
-  margin: 10px;
-  text-align: center;
-  color: white;
-  font-size: larger;
-  height: 70px;
-}
+
 
 h1 {
   text-align: center;
 }
 
-.main-title {
-  color: white;
+
+.container {
+  margin: 40px;
+
 }
 
-#container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+
+
+#date1 {
+  text-align: center;
+  font-size: larger;
 }
 
-.section-1 {
-  margin: 10px;
-  align-items: flex-end;
+
+#searchBtn {
+  display: block;
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 15%;
+  padding-right: 15px;
+  padding-bottom: 85px;
+  height: 150%;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -15px;
+  border: 2px dashed #0c0d0e;
+  border-radius: 20px;
+  resize: none;
+  overflow: hidden;
+}
+
+
+.button {
+  border-radius: 20px;
+  background-color: red;
+  font-size: x-large;
+  width: 150px;
+  margin-left: -15px;
+}
+
+#cards {
+  border-radius: 18px;
+  width: 15%;
+  font-size: x-large;
+  height: 55px;
+padding-top: 15px;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 85px;
+margin-top: -260px;
+  margin-bottom: 10px;
+  margin-left: 400px;
+  word-spacing: 5px;
+  line-height: 25px;
+}
+
+#name {
+  font-size: larger;
+}
+
+.results1{
+    display: flex;
+    font-size:larger;
+    margin-top: 140px;
+    margin-left: 9px;
+    margin-right: 10px;
+    padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  word-spacing: 5px;
+  line-height: 30px;
+  border-radius: 18px;
+    
+  }
+
+.fa-solid {
+  visibility: hidden;
+}
+
+
+.subTitle {
+  visibility: hidden;
+  margin-left: 30px;
+}
+
+#cards2 {
+  margin-left: 300px;
+  margin-top: 200px;
 }
